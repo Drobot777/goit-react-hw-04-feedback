@@ -1,0 +1,30 @@
+.button1 {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgb(86, 184, 86);
+  border-color: transparent;
+  font-size: 30px;
+}
+.containerButton {
+  text-align: center;
+}
+.button1:active,
+.button2:active,
+.button3:active {
+  background-color: blue;
+}
+.button2 {
+  composes: button1;
+  background-color: rgb(204, 204, 71);
+}
+.button3 {
+  composes: button1;
+  background-color: rgb(207, 49, 49);
+}
+.titlestatic{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}

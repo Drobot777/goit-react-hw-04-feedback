@@ -1,0 +1,25 @@
+.titlegood{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: green;
+}
+.titleneutral{
+    composes:titlegood;
+    color: rgb(215, 215, 61);
+}
+.titlebag{
+    composes:titlegood;
+    color: red; 
+}
+.titletotal{
+    composes:titlegood;
+    color: black;
+    font-weight: 900;
+}
+.titlepositiv{
+    composes:titlegood;
+    color: blue;
+    font-weight: 900;
+}
